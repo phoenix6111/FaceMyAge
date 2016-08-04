@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="id_getimage" type="id" />
+    <item name="id_tip" type="id" />
+    <item name="btn_detect" type="id"/>
+    <item name="id_photo" type="id" />
+    <item name="id_waitting" type="id" />
+    <item name="id_age_gender" type="id" />
+    <item name="btn_camera" type="id" />
+    <item name="btn_pick_img" type="id" />
+    <item name="id_menu" type="id" />
+    <item name="id_menu_reset" type="id" />
+</resources>

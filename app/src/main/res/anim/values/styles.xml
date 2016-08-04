@@ -1,0 +1,255 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item><!--去除actionbar下阴影：-->
+        <item name="android:listDivider">@drawable/divider_bg</item><!--divider背景-->
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme" parent="BaseAppTheme"></style>
+    <style name="AppTheme.Detail" parent="AppTheme"></style>
+
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenExitAnimation">@anim/anim_not_change</item>
+        <item name="android:activityOpenEnterAnimation">@anim/zoom_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/zoom_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_not_change</item>
+        <!--<item name="android:taskOpenEnterAnimation">@anim/zoom_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/zoom_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/zoom_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/zoom_exit</item>-->
+        <!--
+        具体这4个属性什么意思呢？假设我们有 2 个 Activity，分别是 A1 和 A2：
+
+        当我们从 A1 启动 A2 时，A1 从屏幕上消失，这个动画叫做 android:activityOpenExitAnimation
+        当我们从 A1 启动 A2 时，A2 出现在屏幕上，这个动画叫做 android:activityOpenEnterAnimation
+        当我们从 A2 退出回到 A1 时，A2 从屏幕上消失，这个叫做 android:activityCloseExitAnimation
+        当我们从 A2 退出回到 A1 时，A1 出现在屏幕上，这个叫做 android:activityCloseEnterAnimation
+        -->
+    </style>
+
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/fade</item>
+    </style>
+    <style name="fade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="elevation">0dp</item>
+    </style>
+    <style name="AppTheme.AppBarWhite" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" >
+        <item name="elevation">0dp</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+    </style>
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="whiteToolbarStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/base_text_black</item>
+    </style>
+
+    <style name="common_item_title_style">
+        <item name="android:textSize">@dimen/common_item_title_size</item>
+        <item name="android:textColor">@color/common_item_title_color</item>
+        <!--<item name="android:layout_marginRight">@dimen/space_5</item>-->
+    </style>
+    <style name="common_item_em_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/common_item_em_size</item>
+        <item name="android:textColor">@color/common_item_em_color</item>
+    </style>
+    <style name="common_item_img_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/common_dreeview_bg</item>
+    </style>
+
+    <style name="mefragment_card_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/me_card_height</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="cardCornerRadius">0dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="common_me_morefragment_card_icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+    <style name="common_item_avator_style">
+        <item name="android:layout_width">@dimen/space_40</item>
+        <item name="android:layout_height">@dimen/space_40</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="common_mefragment_card_righticon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/card_list_more3</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="common_me_card_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mefragment_card_title_color</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:paddingLeft">@dimen/me_card_title_leftpadding</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="common_setting_card_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mefragment_card_title_color</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:paddingLeft">@dimen/space_15</item>
+    </style>
+
+    <style name="common_card_profile">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="cardCornerRadius">0dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="common_card_profile_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mefragment_card_title_color</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:paddingLeft">@dimen/act_profile_card_label_padding</item>
+        <item name="android:paddingTop">@dimen/space_15</item>
+        <item name="android:paddingBottom">@dimen/space_15</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="common_item_action_img_style">
+        <!--<item name="android:layout_width">@dimen/common_item_action_img_width</item>
+        <item name="android:layout_height">@dimen/common_item_action_img_height</item>-->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="common_card_profile_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mefragment_card_title_color</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:layout_marginRight">@dimen/act_profile_card_text_padding</item>
+        <item name="android:paddingTop">@dimen/space_15</item>
+        <item name="android:paddingBottom">@dimen/space_15</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="AppTheme.TransparentActivity">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="ItemBackagroundBorderless">
+        <item name="android:background">@drawable/rv_selector</item>
+    </style>
+
+    <style name="SwipeBackLayout">
+        <item name="edge_size">0dp</item>
+    </style>
+
+    <style name="expandedToolbarTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!--image select animation-->
+    <style name="anim_dir_popwindow">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <!--设置toolbar的标题字体-->
+    <style name="WebTitle"
+        parent="@android:style/TextAppearance">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="text_flag_01">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/checked_bg</item>
+        <item name="android:textColor">#FF4081</item>
+    </style>
+
+    <style name="Widget.SeekBar.Normal" parent="@android:style/Widget.SeekBar">
+        <item name="android:maxHeight">8.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/seekbar_horizontal</item>
+        <item name="android:minHeight">8.0dip</item>
+        <item name="android:thumb">@drawable/seekbar_thumb</item>
+        <item name="android:thumbOffset">10.0dip</item>
+    </style>
+    <style name="font_bottom_popupwindow_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:background">@drawable/icon_font_bg</item>
+        <item name="android:textColor">@drawable/icon_font_text_color</item>
+    </style>
+    <style name="progressbar_loading_style">
+        <item name="android:indeterminateDrawable">@drawable/progressbar_loading_bg</item>
+        <item name="android:minWidth">16dp</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxWidth">18dp</item>
+        <item name="android:maxHeight">18dp</item>
+    </style>
+    <style name="toolbar_progressbar_loading_style">
+        <item name="android:indeterminateDrawable">@drawable/toolbar_progressbar_loading_bg</item>
+        <item name="android:minWidth">25dp</item>
+        <item name="android:minHeight">25dp</item>
+        <item name="android:maxWidth">40dp</item>
+        <item name="android:maxHeight">40dp</item>
+    </style>
+
+    <style name="toolbar_title_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/common_toolbar_text_size</item>
+    </style>
+
+</resources>

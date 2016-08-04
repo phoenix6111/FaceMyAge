@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="profile_touxian_dialog_list">
+        <item>拍照</item>
+        <item>从相册选择</item>
+    </string-array>
+    <string-array name="profile_gender_dialog_list">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <integer-array name="xingqu_icons">
+        <item>@drawable/xingqu_xiaohua_icon</item>
+        <item>@drawable/xingqu_meiweng_icon</item>
+        <item>@drawable/xingqu_jiankang_icon</item>
+        <item>@drawable/xingqu_qinggan_icon</item>
+        <item>@drawable/xingqu_yule_icon</item>
+        <item>@drawable/xingqu_shenghuo_icon</item>
+        <item>@drawable/xingqu_caifu_icon</item>
+        <item>@drawable/xingqu_qiche_icon</item>
+        <item>@drawable/xingqu_keji_icon</item>
+        <item>@drawable/xingqu_shishang_icon</item>
+        <item>@drawable/xingqu_yuer_icon</item>
+        <item>@drawable/xingqu_lvyou_icon</item>
+        <item>@drawable/xingqu_zhichang_icon</item>
+        <item>@drawable/xingqu_meishi_icon</item>
+        <item>@drawable/xingqu_lishi_icon</item>
+        <item>@drawable/xingqu_jiaoyu_icon</item>
+        <item>@drawable/xingqu_xingzuo_icon</item>
+        <item>@drawable/xingqu_tiyu_icon</item>
+        <item>@drawable/xingqu_chongwu_icon</item>
+
+        <!--<item>@drawable/xingqu_shehui_icon</item>
+        <item>@drawable/xingqu_tansuo_icon</item>-->
+    </integer-array>
+
+    <string-array name="xingqu_texts">
+        <item>笑话</item>
+        <item>美文</item>
+        <item>健康</item>
+        <item>情感</item>
+        <item>娱乐</item>
+        <item>生活</item>
+        <item>财经</item>
+        <item>汽车</item>
+        <item>科技</item>
+        <item>时尚</item>
+        <item>育儿</item>
+        <item>旅游</item>
+        <item>职场</item>
+        <item>美食</item>
+        <item>历史</item>
+        <item>教育</item>
+        <item>星座</item>
+        <item>体育</item>
+        <item>宠物</item>
+
+        <!--<item>社会</item>
+        <item>探索</item>-->
+    </string-array>
+
+    <string-array name="xingqu_module_identities">
+        <item>xingqu_module_xiaohua</item>
+        <item>xingqu_module_meiweng</item>
+        <item>xingqu_module_jiankang</item>
+        <item>xingqu_module_qinggan</item>
+        <item>xingqu_module_yule</item>
+        <item>xingqu_module_shenghuo</item>
+        <item>xingqu_module_caijing</item>
+        <item>xingqu_module_qiche</item>
+        <item>xingqu_module_keji</item>
+        <item>xingqu_module_shishang</item>
+        <item>xingqu_module_yuer</item>
+        <item>xingqu_module_lvyou</item>
+        <item>xingqu_module_zhichang</item>
+        <item>xingqu_module_meishi</item>
+        <item>xingqu_module_lishi</item>
+        <item>xingqu_module_jiaoyu</item>
+        <item>xingqu_module_xingzuo</item>
+        <item>xingqu_module_tiyu</item>
+        <item>xingqu_module_chongwu</item>
+
+        <!--<item>xingqu_module_tansuo</item>
+        <item>xingqu_module_shehui</item>
+-->
+    </string-array>
+</resources>

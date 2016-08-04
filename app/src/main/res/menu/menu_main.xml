@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:id="@+id/menu_reset"
+        android:icon="@drawable/reset_icon2"
+        android:title="@string/setup_reset"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_about"
+        android:icon="@drawable/about_icon"
+        android:title="@string/setup_about"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,253 @@
+<resources>
+    <string name="app_name">小亚</string>
+    <string name="app_version">1.5.1</string>
+
+    <string name="open">drawer_open</string>
+    <string name="close">drawer_close</string>
+
+    <!--author info-->
+    <string name="auth_name">wanghaisheng</string>
+    <string name="auth_email">1392100700@qq.com</string>
+
+    <string name="nodata">暂无数据</string>
+
+    <string name="loadmore">正在加载中。。。</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <string name="meishi">美食</string>
+    <string name="collection">收藏</string>
+    <string name="font">字体</string>
+    <string name="save_all">一键保存</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="feedback">反馈</string>
+    <string name="setup">设置</string>
+    <string name="about">关于</string>
+    <string name="fuli">福利</string>
+    <string name="download">下载</string>
+
+
+    <string name="act_profile_label_touxian">头像</string>
+    <string name="act_profile_label_nickname">昵称</string>
+    <string name="act_profile_label_gender">性别</string>
+    <string name="act_profile_label_tel">手机号</string>
+    <string name="act_profile_label_wechat">微信</string>
+    <string name="act_profile_security_info">验证码隐藏在来电号码%s的后四位，请查询后输入</string>
+    <string name="act_profile_securitycode_btn_complete">下一步</string>
+
+
+    <string name="science">百科</string>
+    <string name="read">阅读</string>
+    <string name="movie">电影</string>
+
+    <string name="morefragment_tv_meishi">美食当家</string>
+    <string name="morefragment_tv_jianshu">美文精选</string>
+    <string name="morefragment_tv_sciencearticle">果壳百科</string>
+    <string name="morefragment_tv_duanzi">段子精选</string>
+    <string name="morefragment_tv_wechatarticle">微信精选</string>
+    <string name="morefragment_tv_movie">电影信息</string>
+    <string name="morefragment_tv_beauty">养眼靓图</string>
+    <string name="morefragment_tv_funny">更多趣图</string>
+    <string name="morefragment_tv_science">生活百科</string>
+    <string name="morefragment_tv_collection">我的收藏</string>
+    <string name="morefragment_select_channel">频道定制</string>
+    <string name="morefragment_wiki">百晓生</string>
+    <string name="morefragment_life">生活相关</string>
+
+    <string name="common_logout">退出登录</string>
+
+    <string name="tab_index">首页</string>
+    <string name="tab_zhuanti">专题</string>
+    <string name="tab_xingqu">兴趣</string>
+    <string name="tab_me">我的</string>
+
+    <string name="tab_index_video">搞笑视频</string>
+    <string name="tag_index_meitu">美女靓图</string>
+
+    <string name="auth_reg_toolbar_title">新用户注册</string>
+    <string name="auth_reg_toolbar_updatepasswd_title">修改密码</string>
+    <string name="auth_reg_toolbar_regetpasswd_title">找回密码</string>
+    <string name="auth_login_toolbar_title">用户登陆</string>
+    <string name="auth_login_forget_passwd">忘记密码？</string>
+    <string name="auth_secutirycode_toolbar_title">验证电话号码</string>
+
+    <string name="common_api_permission_err_msg">权限错误，需登陆才能进一步操作，将跳转到登陆界面</string>
+    <string name="common_api_network_err_msg">网络连接错误</string>
+    <string name="error_msg_parse">数据解析错误</string>
+    <string name="common_api_unknown_err_msg">发生错误</string>
+    <string name="common_vendor_permission_err_msg">权限错误</string>
+
+    <string name="common_no_network">当前没有可用的网络连接</string>
+    <string name="common_loading">加载中....</string>
+
+    <string name="act_login_err">登陆失败</string>
+    <string name="act_reg_err">注册失败</string>
+
+    <string name="act_profile_dialog_nickname_title">编辑昵称</string>
+    <string name="act_profile_dialog_gender_title">选择性别</string>
+    <string name="common_dialog_positive_text">完成</string>
+    <string name="common_dialog_negtive_text">取消</string>
+
+    <string name="id_language">language</string>
+    <string name="id_swipe_back">swipe_back</string>
+    <string name="text_search">搜索</string>
+
+    <string name="setup_auto_receive_msg">接收推送通知</string>
+    <string name="setup_clear_cache">清空缓存</string>
+    <string name="setup_check_update">检查更新</string>
+    <string name="setup_clear_cache_wait_msg">正在删除缓存。。</string>
+    <string name="setup_clear_cache_success">缓存数据删除成功</string>
+
+    <string-array name="swipe_back">
+        <item>@string/text_anywhere</item>
+        <item>@string/text_left_only</item>
+    </string-array>
+
+    <string name="setting">设置中心</string>
+    <string name="text_auto_refresh">自动刷新</string>
+    <string name="text_auto_refresh_summary">在WIFI下自动从网络加载数据</string>
+    <string name="text_clear_cache">清除缓存</string>
+    <string name="text_clear_cache_summary">清除"闲暇"的缓存</string>
+    <string name="text_language">语言</string>
+    <string name="text_night_mode">夜间模式</string>
+    <string name="text_no_pic_mode">无图模式</string>
+    <string name="text_no_pic_mode_summary">仅在WIFI下加载图片</string>
+    <string name="text_preference">偏好</string>
+    <string name="text_shake_to_return">摇晃返回</string>
+    <string name="text_network">网络</string>
+    <string name="text_author">作者</string>
+    <string name="text_clear_cache_successful">缓存清除成功!</string>
+    <string name="text_exit_confirm">退出确认</string>
+    <string name="text_exit_confirm_summary">按两次返回键退出应用</string>
+    <string name="notify_exit_confirm">再按一次退出</string>
+    <string name="text_search_by_category">按类别搜索</string>
+    <string name="text_search_by_keyword">按关键字搜索</string>
+    <string name="text_attention">注意</string>
+    <string name="text_attention_summary">此应用禁止用于商业目的</string>
+    <string name="text_author_github">作者 GitHub</string>
+    <string name="text_blog">博客</string>
+    <string name="text_check_update">检查更新</string>
+    <string name="text_copyright">版权</string>
+    <string name="text_current_version">当前版本</string>
+    <string name="text_data">数据</string>
+    <string name="text_data_summary">所有数据均来自公开的API,版权属于原作者</string>
+    <string name="text_good_job">点个赞</string>
+    <string name="text_good_job_summary">去https://github.com/MummyDing/Leisure给个star吧！</string>
+    <string name="text_share_leisure">分享闲暇</string>
+    <string name="text_email">邮箱</string>
+    <string name="notify_find_new_version">发现新版本　</string>
+    <string name="notify_current_is_latest">已经是最新版本</string>
+    <string name="notif_info_copied">信息已添加至剪切板,你可以将其粘贴到编辑区域</string>
+    <string name="text_share_info">欢迎使用“闲暇”,它集"知乎日报"、"果壳科学人"、"新华网新闻"以及"豆瓣图书"于一体,满足你日常休闲阅读需求,你可以到http://justgogo.biz下载</string>
+    <string name="text_demo_video">演示视频</string>
+    <string name="text_app_intro">应用简介</string>
+    <string name="notify_remove_from_collection">成功从收藏移除!</string>
+    <string name="text_swipe_to_return">滑动返回</string>
+    <string name="text_share_from">分享自</string>
+    <string name="text_left_only">仅左边有效</string>
+    <string name="text_hot"> 热度 </string>
+    <string name="hint_share_to">分享到</string>
+    <string name="notify_add_to_collection">成功添加到收藏</string>
+    <string name="text_anywhere">任意位置有效</string>
+    <string name="text_day_mode">日间模式</string>
+    <string name="hint_fail_check_update">获取版本信息失败，请检查网络设置</string>
+    <string name="share">分享</string>
+    <string name="auth_blog">http://justgogo.biz</string>
+    <string name="auth_github">https://github.com/sheng-xiaoya</string>
+    <string name="text_license">License</string>
+
+    <string name="settings_thread_sort">帖子排序方式</string>
+    <string name="settings_text_size">字体大小</string>
+    <string name="settings_md_colors">主题颜色</string>
+    <string name="settings_auto_update">自动更新应用</string>
+    <string name="settings_swipeback_edgemode">手势返回</string>
+    <string name="settings_dt_swipeback_edgemode">设置手势方向</string>
+    <string name="settings_auto_notification">是否接受通知</string>
+    <string name="settings_general_settings">常规</string>
+    <string name="settings_notification_settings">通知</string>
+    <string name="category_read">阅读</string>
+    <string name="settings_load_pic">是否加载图片</string>
+    <string name="settings_load_pic_summary">默认加载列表和内容图片</string>
+    <string name="category_other">其他</string>
+    <string name="settings_pic_path">图片保存路径</string>
+    <string name="settings_clear_cache">清空缓存</string>
+
+
+    <string name="back_button_label">Back</string>
+    <string name="next_button_label">Next</string>
+
+    <!-- Optional button to Skip a PreferenceActivity [CHAR LIMIT=20] -->
+    <string name="skip_button_label">Skip</string>
+
+    <string name="tabbar_refresh">刷新</string>
+    <string name="tabbar_copyurl">复制网址</string>
+    <string name="feedback_title_hint">标题</string>
+    <string name="feedback_content_hint">内容</string>
+
+    <string name="feedback_title">提交反馈</string>
+    <string name="feedback_content">反馈内容</string>
+    <string name="action_select_img">选择照片</string>
+    <string name="action_post">提交反馈</string>
+
+    <!--图片选择器-->
+    <string name="str_all_img">所有图片</string>
+    <string name="error_view_str">内容加载失败\n点击重新加载</string>
+    <string name="str_daily">百科</string>
+    <string name="str_science">果壳</string>
+    <string name="str_movie">电影</string>
+    <string name="str_me">我</string>
+
+    <string name="error_view_click_to_refresh">点击屏幕,重新加载</string>
+    <string name="error_msg_no_data">暂无内容，点击屏幕重试</string>
+    <string name="error_view_no_data_enableclick">暂无内容，点击屏幕重试</string>
+    <string name="error_view_loading">加载中…</string>
+    <string name="error_view_load_error">内容加载失败\n点击屏幕重新加载</string>
+    <string name="error_msg_network">没有可用的网络</string>
+    <string name="error_msg_permission">您没有访问相关内容的权限</string>
+    <string name="error_msg_notfound">找不到相关数据</string>
+    <string name="error_msg_unique">已存在该字段</string>
+    <string name="error_msg_validate">数据验证错误</string>
+    <string name="error_msg_server">服务器错误</string>
+    <string name="error_view_unknown_error">发生错误，请点击屏幕重试</string>
+    <string name="tip_network_error">没有可用的网络</string>
+
+    <string name="image_pic_no_title">无题</string>
+
+    <string name="data_source_memory">内存</string>
+    <string name="data_source_disk">磁盘</string>
+    <string name="data_source_network">网络</string>
+    <string name="msg_image_saved">图片已保存在%s</string>
+    <string name="msg_image_save_failure">图片保存失败</string>
+
+    <string name="msg_download_image">下载图片</string>
+    <string name="msg_download_progress">下载进度</string>
+    <string name="msg_download_success">图片保存成功</string>
+    <string name="msg_download_success_path">图片保存在%s</string>
+    <string name="msg_download_failure">图片保存失败</string>
+
+    <string name="menu_main_beauty">科学</string>
+    <string name="menu_main_funny">搞笑</string>
+    <string name="menu_main_fuli">福利</string>
+    <string name="menu_main_gaoxiao">科学</string>
+    <string name="mefragment_profile_notlogin">未登录</string>
+    <string name="mefragment_profile_btn_logintext">登录/注册</string>
+    <string name="act_profile_btn_updatepaddwd">修改密码</string>
+    <string name="act_profile_tv_touxian">头像</string>
+    <string name="act_profile_toolbar_title">个人信息</string>
+    <string name="act_auth_passwd_hint">请输入密码</string>
+    <string name="act_auth_captcha_hint">获取验证码</string>
+    <string name="act_auth_btn_validate_text">验证</string>
+    <string name="act_auth_btn_captcha_text">请输入验证码</string>
+    <string name="act_auth_tel_hint">手机号</string>
+    <string name="act_auth_security_code">请输入验证码</string>
+    <string name="common_btn_reg_text">注册</string>
+    <string name="common_btn_submit">提交</string>
+    <string name="common_btn_login_text">登陆</string>
+    <string name="act_search_history_text">最近搜索记录</string>
+    <string name="act_search_history_clear">清空搜索记录</string>
+    <string name="toolbar_menu_startwith_browser">用浏览器打开</string>
+    <string name="toolbar_more_text">更多内容</string>
+    <string name="toolbar_xingqu_text">兴趣阅读</string>
+    <string name="tab_more_text">更多</string>
+    <string name="tab_my">我的</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">好欧</string>
+    <string name="action_settings">设置</string>
+    <string name="click_to_detect">点击识别==></string>
+    <string name="setup_reset">重置</string>
+    <string name="setup_about">关于</string>
+    <string name="about_text">
+        介绍：
+        好欧 （How-Old） "是一款休闲娱乐的安卓应用软件，通过这款APP，使用者可以对任意照片进行“估龄”让你的面孔会说话。届时，通过人脸识别云服务估测年龄和判断性别的能力，系统会对瞳孔、眼角、鼻子等27个“面部地标点”展开分析，进而得出你的“颜龄”！而且系统还提供了方便的分享功能，让使用者能方便的和朋友进行交流！
+    </string>
+    <string name="about_tips_text">
+        TIPS：双击图片则能让年龄增加10岁，但增加的年龄最大值为30。
+    </string>
+    <string name="home_desc">
+        HOW OLD DO YOU LOOK?
+    </string>
+</resources>
